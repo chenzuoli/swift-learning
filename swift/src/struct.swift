@@ -20,3 +20,14 @@ Swift 中所有的基本类型：
     字典（dictionary）
 Swift 中所有的结构体和枚举类型都是值类型
 */
+
+
+struct Fahrenheit {
+    var temperature: Double
+    init() {
+        temperature = 32.0
+    }
+}
+var f = Fahrenheit()
+print("The default temperature is \(f.temperature)° Fahrenheit")
+// 打印“The default temperature is 32.0° Fahrenheit”
